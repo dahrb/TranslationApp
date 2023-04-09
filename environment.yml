@@ -1,5 +1,6 @@
 name: Translation
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - bzip2=1.0.8=he774522_0
@@ -21,6 +22,8 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_0
   - pip:
       - babel==2.12.1
+      - beautifulsoup4==4.12.2
+      - bs4==0.0.1
       - charset-normalizer==3.1.0
       - deep-translator==1.10.1
       - docx==0.2.4

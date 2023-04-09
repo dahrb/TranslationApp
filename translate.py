@@ -162,7 +162,7 @@ while (userSelection != "q"):
 
         x = input("If this is correct please enter 'Y' to continue: ")
 
-        if x == 'Y':
+        if x == 'Y'.lower():
             combine_all_docx(first_doc,docs,y)
             print("The document has been created")
         else:
